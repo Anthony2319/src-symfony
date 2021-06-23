@@ -70,7 +70,7 @@ class User implements UserInterface
      * @Assert\Choice(
      *     {"ROLE_ADMIN", "ROLE_USER", "ROLE_STUDENT", "ROLE_TEACHER", "ROLE_CLIENT"},
      * multiple = true,
-     * multipleMessages="Seules les valeurs suivantes sont valides"
+     * multipleMessage="Seules les valeurs suivantes sont valides"
      * )
      */
     private $roles = [];
